@@ -3,18 +3,7 @@ using namespace std;
  
 int main()
 {
- 
-  int a = 5; //processes
-  int b = 3; //resources
-  int i, j, k;
- 
-  int matrixallo[5][3] = { { 0, 1, 0 }, 
-  { 2, 0, 0 }, { 3, 0, 2 }, { 2, 1, 1 }, { 0, 0, 2 } };
- 
-  int matrixmax[5][3] = { { 7, 5, 3 },
- { 3, 2, 2 },{ 9, 0, 2 },{ 2, 2, 2 },{ 4, 3, 3 } }; 
- 
-  int resource[3] = { 3, 3, 2 }; 
+
  
   int arr1[a], arr2[a], index = 0;
   for (k = 0; k < a; k++) {
